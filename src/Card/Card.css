@@ -1,0 +1,138 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 30px 0;
+  padding: 0px 40px 0px 40px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 18px;
+  padding: 10px;
+  width: 400px;
+  height: 555px;
+  border: none;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.button-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.heart {
+  width: 40px;
+  border-radius: 90px;
+}
+
+.button-top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+}
+.right {
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 40px;
+}
+.card-image {
+  width: 100%;
+  height: 52%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.location {
+  margin-top: 8px;
+  margin-right: 200px;
+}
+.locate {
+  font-size: 17px;
+}
+.address {
+  margin-left: 20px;
+  width: 300px;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: justify;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.icon {
+  display: block;
+  flex: 1;
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 0 4px;
+}
+.desc {
+  margin-top: 5px;
+}
+.price {
+  font-weight: bold;
+  margin: 12px 0;
+  margin-left: 15px;
+}
+
+.button-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.read {
+  background-color: transparent;
+  color: rgb(0, 0, 255);
+  border: 2px solid rgb(0, 0, 255);
+  border-radius: 45px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 14px;
+  margin-top: -6px;
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+}
+.show-more {
+  text-align: center;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.showmore {
+  background-color: #005bbd;
+  color: #fff;
+  border: none;
+  padding: 13px 30px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+/* Card.css */
+.popular-button {
+  background-color: blue;
+  color: white;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: -5px;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: -5px 0 10px rgb(0, 0, 255);
+}
